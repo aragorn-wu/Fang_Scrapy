@@ -8,7 +8,7 @@ from SpiderLianjia.spiders.startURL import startURL
 
 class xinfangLianjia(scrapy.Spider):
     name = 'xinfangLianjia'
-    allowed_domains = ['lianjia.com']
+    allowed_domains = ['jn.fang.lianjia.com']
     start_urls = startURL.xinfangURL
 
     def parse(self, response):

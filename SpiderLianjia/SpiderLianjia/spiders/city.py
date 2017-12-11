@@ -7,7 +7,7 @@ from SpiderLianjia.items import SpiderlianjiaItem
 class CityLianjia(scrapy.Spider):
     name = 'CityLianjia'
     allowed_domains = ['lianjia.com']
-    start_urls = ['http://cs.lianjia.com/']
+    start_urls = ['http://jn.lianjia.com/']
 
     def parse(self, response):
         city_info_query = '//body/div/div/div[@class="city-change animated"]/ul/li'
